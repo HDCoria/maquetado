@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Pagina</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./assets/logo.png" alt="Logo de Daniel" />
+      </a>
+      <nav class="navigation" aria-label="Menu De Navegacion">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about-me">Quien Soy</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#servicios">Servicios</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#contacto">Escribeme</a>
+          </li>
+        </ul>
+        <button class="navigation__menu-toggle" aria-label="Abrir Menu" aria-expanded="false">
+          <img src="./assets/burger.png" alt="Menu Desplegable" />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Bienvenidos <span>a mi sitio</span></h1>
+          <img class="hero__image" src="./assets/yo.png" alt="Foto de Daniel" />
+        </div>
+      </section>
+      <section id="about-me" class="about">
+        <div class="about__content">
+          <h2 class="about__title">Soy Daniel</h2>
+          <p class="about__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique. Phasellus
+            placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+            lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend
+            justo et sodales semper. Mauris nec tortor lectus. Curabitur nec
+            ultricies dolor.
+          </p>
+        </div>
+        <img class="about__image" src="./assets/tilde.png" alt="Tilde Verde" />
+      </section>
+      <section id="servicios" class="services">
+        <h2 class="services__title">Servicios</h2>
+        <div class="services__container">
+          <article class="service-card">
+            <img src="./assets/compu.png" alt="Computadora" />
+            <h3 class="service-card__title">Hago Cosas</h3>
+            <p class="service-card__text">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique.
+            </p>
+          </article>
+          <article class="service-card">
+            <img src="./assets/compu.png" alt="Computadora" />
+            <h3 class="service-card__title">Y más cosas</h3>
+            <p class="service-card__text">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique.
+            </p>
+          </article>
+          <article class="service-card">
+            <img src="./assets/compu.png" alt="Computadora" />
+            <h3 class="service-card__title">Y también otras cosas</h3>
+            <p class="service-card__text">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="contacto" class="contact">
+        <h2 class="contact__title">Escribeme</h2>
+        <form class="contact__form" action="#">
+          <div class="form-field">
+            <label for="">Nombre</label>
+            <input type="text" />
+          </div>
+          <div class="form-field">
+            <label for="">Email</label>
+            <input type="text" />
+          </div>
+          <div class="form-field">
+            <label for="">Mensaje</label>
+            <textarea name="" id=""></textarea>
+          </div>
+          <button type="submit" class="contact__button">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__copyrigth">
+          <img class="footer__logo" src="./assets/logo.png" alt="Logo de Daniel" />
+          <p class="footer__copyrigth-text">2025 © Daniel</p>
+        </div>
+        <div class="footer__socials">
+          <article class="social-cards">
+            <a href="#">
+              <img class="social-card__image" src="./assets/linkid.png" alt="Logo de Link Id" />
+            </a>
+            <a href="#">LinkId</a>
+          </article>
+          <article class="social-cards">
+            <a href="#">
+              <img class="social-card__image" src="./assets/instagram.png" alt="Logo de Instagram" />
+            </a>
+            <a href="#">Instagram</a>
+          </article>
+          <article class="social-cards">
+            <a href="#">
+              <img class="social-card__image" src="./assets/github.png" alt="Logo de GitHub" />
+            </a>
+            <a href="#">GitHub</a>
+          </article>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
